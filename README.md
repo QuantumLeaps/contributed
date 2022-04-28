@@ -17,7 +17,7 @@ C++ Port for the ESP32 microcontroller from [espressif](https://www.espressif.co
 [![cpputest-for-qpcpp](https://covemountainsoftware.com/wp-content/uploads/2022/04/IMG_7125.jpg)](https://github.com/covemountainsoftware/cpputest-for-qpcpp)
 
 A port of `qpcpp` with additional supporting code to enable and simplify host based unit testing 
-of QActive objects using CppUTest. Includes examples demonstrating topics such as:  
+of `QActive` objects using CppUTest. Includes examples demonstrating topics such as:  
 * Capturing and testing of published events.
 * Testing subscribed event behavior.
 * Testing direct post behavior.
