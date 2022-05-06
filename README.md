@@ -14,7 +14,7 @@ C++ Port for the ESP32 microcontroller from [espressif](https://www.espressif.co
 
 ## CppUTest for QP/C++ (cpputest-for-qpcpp)
 
-[![cpputest-for-qpcpp](https://covemountainsoftware.com/wp-content/uploads/2022/04/IMG_7125.jpg)](https://github.com/covemountainsoftware/cpputest-for-qpcpp)
+[![cpputest-for-qpcpp](img/cpputest-qpcpp-img.jpg)](https://github.com/covemountainsoftware/cpputest-for-qpcpp)
 
 A port of `qpcpp` with additional supporting code to enable and simplify host based unit testing 
 of `QActive` objects using CppUTest. Includes examples demonstrating topics such as:  
@@ -29,6 +29,18 @@ of `QActive` objects using CppUTest. Includes examples demonstrating topics such
 Additional Information:
 - License: Default GPLv3, with a commercial license available upon registration.
 - Link: https://github.com/covemountainsoftware/cpputest-for-qpcpp
+
+## CppUTest for QP/C (cpputest-for-qpc)
+
+[![cpputest-for-qpc](img/cpputest-qpc-img.jpg)](https://github.com/covemountainsoftware/cpputest-for-qpc)
+
+This port is conceptually the same as `cpputest-for-qpcpp` (noted above) but instead uses QP's C language 
+based framework (`qpc`) with CppUTest. See the details on `cpputest-for-qpcpp` above for benefits, which also apply to 
+this version.
+
+Additional Information:
+- License: Default GPLv3, with a commercial license available upon registration.
+- Link: https://github.com/covemountainsoftware/cpputest-for-qpc
 
 # Licensing
 
