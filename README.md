@@ -42,6 +42,13 @@ Additional Information:
 - License: Default GPLv3, with a commercial license available upon registration.
 - Link: https://github.com/covemountainsoftware/cpputest-for-qpc
 
+## QP/C example running on low end microcontrollers
+
+A QP/C based solution for the Dining Philosopher Problem ported on MSP430G2553 with only 16 KB of flash and 512 bytes of RAM.
+
+- Link: https://github.com/ef15c/qpc-msp430.git
+- License: GPLv3
+
 # Licensing
 
 The contributed software is owned by the respective developers and is *not* licensed by Quantum Leaps. Please see the linked repositories for the licensing terms offered.
