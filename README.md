@@ -42,7 +42,7 @@ Additional Information:
 - License: Default GPLv3, with a commercial license available upon registration.
 - Link: https://github.com/covemountainsoftware/cpputest-for-qpc
 
-## QP/C exampleq running on low end microcontrollers
+## QP/C examples running on low end microcontrollers
 
 1- A QP/C based solution for the Dining Philosopher Problem ported on MSP430G2553 with only 16 KB of flash and 512 bytes of RAM.
 
