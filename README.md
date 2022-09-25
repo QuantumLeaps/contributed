@@ -49,7 +49,7 @@ Additional Information:
 - Link: https://github.com/ef15c/qpc-msp430.git
 - License: GPLv3
 
-1- A QP/C port on Arduino/AVR and an example showing a solution for the Dining Philosopher Problem.
+2- A QP/C port on Arduino/AVR and an example showing a solution for the Dining Philosopher Problem.
 
 - Link: https://github.com/ef15c/qpc_avr.git
 - License: GPLv3
