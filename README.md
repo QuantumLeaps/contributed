@@ -1,9 +1,17 @@
 [![Modern Embedded Software](img/masthead1.jpg)](https://www.state-machine.com)
 
-
 # Community Contributed Software
 
-This repository contains links and brief descriptions of contributed software.
+This repository contains links and brief descriptions of contributed software realated to [QP/C](https://github.com/QuantumLeaps/qpc), [QP/C++](https://github.com/QuantumLeaps/qpcpp), [QM](https://github.com/QuantumLeaps/qm), or [QTools](https://github.com/QuantumLeaps/qtools).
+
+
+## Table of Contents
+- [QP/C++ ESP32](#qpc-esp32)
+- [CppUTest for QP/C++](#cpputest-for-qpc-cpputest-for-qpcpp)
+- [CppUTest for QP/C](#cpputest-for-qpc-cpputest-for-qpc)
+- [QP/C examples running on low end microcontrollers](#qpc-examples-running-on-low-end-microcontrollers)
+- [Licensing](#licensing)<br>
+
 
 ## QP/C++ ESP32
 
