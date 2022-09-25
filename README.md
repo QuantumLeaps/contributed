@@ -46,10 +46,14 @@ Additional Information:
 
 1- A QP/C based solution for the Dining Philosopher Problem ported on MSP430G2553 with only 16 KB of flash and 512 bytes of RAM.
 
+[![MSP430 LaunchPad](img/msp430-launchpad.jpg)](https://github.com/ef15c/qpc-msp430.git)
+
 - Link: https://github.com/ef15c/qpc-msp430.git
 - License: GPLv3
 
 2- A QP/C port on Arduino/AVR and an example showing a solution for the Dining Philosopher Problem.
+
+[![Arduino UNO](img/arduino-uno.jpg)](https://github.com/ef15c/qpc_avr.git)
 
 - Link: https://github.com/ef15c/qpc_avr.git
 - License: GPLv3
