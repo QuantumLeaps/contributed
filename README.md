@@ -4,6 +4,8 @@
 
 This repository contains links and brief descriptions of contributed software realated to [QP/C](https://github.com/QuantumLeaps/qpc), [QP/C++](https://github.com/QuantumLeaps/qpcpp), [QM](https://github.com/QuantumLeaps/qm), or [QTools](https://github.com/QuantumLeaps/qtools).
 
+# Licensing
+The contributed software is owned by the respective developers and is *not* licensed by Quantum Leaps. Please see the linked repositories for the licensing terms offered.
 
 ## Table of Contents
 - [QP/C++ ESP32](#qpc-esp32)
@@ -14,14 +16,12 @@ This repository contains links and brief descriptions of contributed software re
 
 
 ## QP/C++ ESP32
-
 C++ Port for the ESP32 microcontroller from [espressif](https://www.espressif.com/). The port is compatible with the native sdk from espressif, [esp-idf](https://github.com/espressif/esp-idf), and the [arduino sdk](https://github.com/espressif/arduino-esp32). 
 
 - Link: https://github.com/vChavezB/qpcpp/tree/esp32
 - License: GPLv3
 
 ## CppUTest for QP/C++ (cpputest-for-qpcpp)
-
 [![cpputest-for-qpcpp](img/cpputest-qpcpp-img.jpg)](https://github.com/covemountainsoftware/cpputest-for-qpcpp)
 
 A port of `qpcpp` with additional supporting code to enable and simplify host based unit testing 
@@ -39,7 +39,6 @@ Additional Information:
 - Link: https://github.com/covemountainsoftware/cpputest-for-qpcpp
 
 ## CppUTest for QP/C (cpputest-for-qpc)
-
 [![cpputest-for-qpc](img/cpputest-qpc-img.jpg)](https://github.com/covemountainsoftware/cpputest-for-qpc)
 
 This port is conceptually the same as `cpputest-for-qpcpp` (noted above) but instead uses QP's C language 
@@ -51,7 +50,6 @@ Additional Information:
 - Link: https://github.com/covemountainsoftware/cpputest-for-qpc
 
 ## QP/C examples running on low end microcontrollers
-
 1- A QP/C based solution for the Dining Philosopher Problem ported on MSP430G2553 with only 16 KB of flash and 512 bytes of RAM.
 
 [![MSP430 LaunchPad](img/msp430-launchpad.jpg)](https://github.com/ef15c/qpc-msp430.git)
@@ -65,8 +63,4 @@ Additional Information:
 
 - Link: https://github.com/ef15c/qpc_avr.git
 - License: GPLv3
-
-# Licensing
-
-The contributed software is owned by the respective developers and is *not* licensed by Quantum Leaps. Please see the linked repositories for the licensing terms offered.
 
