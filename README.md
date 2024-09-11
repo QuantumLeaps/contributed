@@ -9,6 +9,7 @@ The contributed software is owned by the respective developers and is *not* lice
 
 ## Table of Contents
 - [QP/C++ ESP32](#qpc-esp32)
+- [Embedded CLI for QP/C++](#embedded-cli-for-qpc-embedded-cli-for-qpcpp)
 - [CppUTest for QP/C++](#cpputest-for-qpc-cpputest-for-qpcpp)
 - [CppUTest for QP/C](#cpputest-for-qpc-cpputest-for-qpc)
 - [QP/C examples running on low end microcontrollers](#qpc-examples-running-on-low-end-microcontrollers)
@@ -20,6 +21,17 @@ C++ Port for the ESP32 microcontroller from [espressif](https://www.espressif.co
 
 - Link: https://github.com/vChavezB/qpcpp/tree/esp32
 - License: GPLv3
+
+## Embedded CLI for QP/C++ (embedded-cli-for-qpcpp)
+
+Need a CLI for your firmware project? This project provides a port of the [Embedded CLI](https://github.com/funbiscuit/embedded-cli) 
+to a shared active object for QP/C++. Host project provides a concrete character device implementation
+to fully enable and start the CLI.
+
+Additional Information:
+- License:  MIT
+- Adheres to [Shared Active Objects For QP Best Practices](https://github.com/covemountainsoftware/Shared-Active-Objects-For-QP-Best-Practices).
+- Link: https://github.com/covemountainsoftware/embedded-cli-for-qpcpp
 
 ## CppUTest for QP/C++ (cpputest-for-qpcpp)
 [![cpputest-for-qpcpp](img/cpputest-qpcpp-img.jpg)](https://github.com/covemountainsoftware/cpputest-for-qpcpp)
