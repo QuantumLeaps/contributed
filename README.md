@@ -13,6 +13,7 @@ The contributed software is owned by the respective developers and is *not* lice
 - [CppUTest for QP/C++](#cpputest-for-qpc-cpputest-for-qpcpp)
 - [CppUTest for QP/C](#cpputest-for-qpc-cpputest-for-qpc)
 - [QP/C examples running on low end microcontrollers](#qpc-examples-running-on-low-end-microcontrollers)
+- [QP/C 'pollfd'-based POSIX Port](#qpc-posix-fd-port)
 - [Licensing](#licensing)<br>
 
 
@@ -75,4 +76,16 @@ Additional Information:
 
 - Link: https://github.com/ef15c/qpc_avr.git
 - License: GPLv3
+
+## QP/C 'pollfd'-based POSIX Port (qpc-posix-fd-port)
+
+This port is similar to POSIX-QV, but implemented in a single thread using `poll` (or `ppoll` in Linux)
+and signaling events through file-descriptors (aka "pipes"). This is NOT a real-time kernel, but offers the ability to
+run the QP/C kernel and your application within a broader pollfd event-loop (e.g., reading devices, running
+integration tests, etc.). This is primarily intended for verifying the logic or control-flow of an application
+in a "hardware-out-of-the-loop" setup on a POSIX system.
+
+Additional Information:
+- License: Default GPLv3, with a commercial license available upon registration.
+- Link: https://github.com/mikael-s-persson/qpc/tree/feature/posix-fd-port/ports/posix-fd
 
